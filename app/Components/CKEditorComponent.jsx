@@ -2,10 +2,9 @@
 
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { storage } from "../Firebase";
-
 
 const MyCustomUploadAdapter = (loader) => {
     return {
@@ -38,6 +37,20 @@ function MyCustomUploadAdapterPlugin(editor) {
 
 export default function CKEditorComponent() {
     const [editorData, setEditorData] = useState('');
+
+    // Load saved data from localStorage when the component mounts
+    useEffect(() => {
+        const savedData = localStorage.getItem('editorData');
+        if (savedData) {
+            setEditorData(savedData);
+        }
+    }, []);
+
+    // Save editor data to localStorage whenever it changes
+    useEffect(() => {
+        localStorage.setItem('editorData', editorData);
+    }, [editorData]);
+
     return (
         <div className="bg-info py-5">
             <div className="container mt-4">
@@ -76,6 +89,8 @@ export default function CKEditorComponent() {
                             <div className="card-body">
                                 <h3>Content</h3>
                                 <div className="ck-content" dangerouslySetInnerHTML={{ __html: editorData }} />
+                                <button>Save Newsletter</button>
+                                <button>Send Email</button>
                             </div>
                         </div>
                     </div>
