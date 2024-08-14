@@ -14,7 +14,7 @@ export default function Cta() {
                     </div> */}
                     <div className="d-flex flex-row justify-content-center w-100">
                         <a
-                            href="#"
+                            href="mailto:sales@mycliniccopilot.com"
                             className="google-plus cta-btn align-self-start mx-2"
                         >
                             <i className="bi bi-envelope-at"></i>
@@ -26,10 +26,16 @@ export default function Cta() {
                             <i className="bi bi-whatsapp"></i>
                         </a>
                         <a
-                            href="skype:falgun73?call"
+                            href="https://join.skype.com/invite/uj0JwHpegulz"
                             className="google-plus cta-btn align-self-start mx-2"
                         >
                             <i className="bi bi-skype"></i>
+                        </a>
+                        <a
+                            href="https://tel://+14154753670 "
+                            className="google-plus cta-btn align-self-start mx-2"
+                        >
+                            <i className="bi bi-telephone"></i>
                         </a>
                     </div>
 

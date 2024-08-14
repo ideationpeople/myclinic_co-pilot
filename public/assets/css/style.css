@@ -1765,3 +1765,10 @@ section {
 .add-newsletter:hover{
   background-color: #0f9d58;
 }
+
+.ck-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

@@ -99,15 +99,13 @@ export default function Contact() {
                             <div className="email">
                                 <i className="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@ideationpeople.com</p>
+                                <p>sales@mycliniccopilot.com</p>
                             </div>
 
                             <div className="phone">
                                 <i className="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 415 800 4211</p>
-                                <p>+44 33 0001 2448</p>
-                                <p>+91 87793 00073</p>
+                                <p>+14154753670</p>
                             </div>
 
                         </div>

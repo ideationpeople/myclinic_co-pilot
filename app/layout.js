@@ -12,7 +12,7 @@ import { AuthProvider } from './context/AuthContext.jsx'
 import {Open_Sans, Raleway} from 'next/font/google'
 
 export const metadata = {
-  title: "Selecao Bootstrap Template - Index",
+  title: "My Clinic Co-pilot",
   description: "MyClinic Co-pilot",
   icons:{
     icon: ['./favicon-32x32.png'],

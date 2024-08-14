@@ -63,14 +63,17 @@ export default function Footer() {
                     </div>
                     <div className="social-links text-center mb-3">
                         <a href="#" className="twitter me-3"><i className="bx bxl-twitter"></i></a>
-                        <a href="#" className="facebook me-3"><i className="bx bxl-facebook"></i></a>
+                        <a href="https://www.facebook.com/mycliniccopilot
+" className="facebook me-3"><i className="bx bxl-facebook"></i></a>
                         <a href="#" className="instagram me-3"><i className="bx bxl-instagram"></i></a>
-                        <a href="#" className="google-plus me-3"><i className="bx bxl-skype"></i></a>
-                        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                        <a href="https://join.skype.com/invite/uj0JwHpegulz" className="google-plus me-3"><i className="bx bxl-skype"></i></a>
+                        <a href="https://www.linkedin.com/company/my-clinic-co-pilot/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                     </div>
                     <div className="text-center mt-3">
-                        <p className="mb-1">&copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved</p>
-                        <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></p>
+                        <p className="mb-1">&copy; Copyright <strong><span>2024,</span></strong>
+                        {/* <p>, Ideation People Solutions Pvt Ltd</p> */}
+                        </p>
+                        <p>Designed by <a href="https://ideationpeople.com/">Ideation People Solutions Pvt Ltd</a></p>
                     </div>
                 </div>
             </div>

@@ -122,7 +122,7 @@ export default function Header() {
             <li><a className="nav-link scrollto" href="#team">Team</a></li>
             <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
             {user ? (
-              <li className="dropdown"><a href="#"><span>Welcome, {userName || 'Mohnish'}</span> <i className="bi bi-chevron-down"></i></a>
+              <li className="dropdown"><a href="#"><span>Welcome, {userName || 'Admin'}</span> <i className="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><Link href="/dashboard" legacyBehavior><a>Go to dashboard</a></Link></li>
                   <li><a style={{ cursor: 'pointer' }} onClick={logout}>Logout</a></li>
