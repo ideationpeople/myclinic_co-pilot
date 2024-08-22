@@ -52,7 +52,7 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="member-info">
-                                <h4>Amrinder Singh</h4>
+                                <h4>Amarinder Sidhu</h4>
                                 <span>Domain Advisor</span>
                                 <p className="fw-lighter fst-italic">Ex Deloitte</p>
                             </div>

@@ -25,7 +25,7 @@ export default function About() {
                                 </strong>
                                 <br />
                                 <br />
-                                At MyCliniCoPilot, we recognize that doctors are busy professionals focused on providing excellent care. That&apos;s why we offer comprehensive, managed digital marketing services tailored specifically for healthcare practices. Using cutting-edge tools and strategies, we help you grow your practice seamlessly without adding to your workload.
+                                At MyClinicCoPilot, we recognize that doctors are busy professionals focused on providing excellent care. That&apos;s why we offer comprehensive, managed digital marketing services tailored specifically for healthcare practices. Using cutting-edge tools and strategies, we help you grow your practice seamlessly without adding to your workload.
                             </p>
                         </div>
                         <div className="row-lg-6 pt-4 pt-lg-0">
@@ -41,7 +41,7 @@ export default function About() {
                                 </strong>
                                 <br />
                                 <br />
-                                At MyCliniCoPilot, we recognize that doctors are busy professionals focused on providing excellent care. That&apos;s why we offer comprehensive, managed digital marketing services tailored specifically for healthcare practices. Using cutting-edge tools and strategies, we help you grow your practice seamlessly without adding to your workload.
+                                At MyClinicCoPilot, we recognize that doctors are busy professionals focused on providing excellent care. That&apos;s why we offer comprehensive, managed digital marketing services tailored specifically for healthcare practices. Using cutting-edge tools and strategies, we help you grow your practice seamlessly without adding to your workload.
                             </p>
                         </div>
                         <div className="col-lg-6 pt-4 pt-lg-0">

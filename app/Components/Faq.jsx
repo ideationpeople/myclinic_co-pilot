@@ -12,16 +12,16 @@ export default function Faq() {
         <ul className="faq-list">
 
           <li>
-            <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">What is MyCliniCoPilot? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">What is MyClinicCoPilot? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
             <div id="faq1" className="collapse" data-bs-parent=".faq-list">
               <p>
-              MyCliniCoPilot is a comprehensive digital marketing service provider for health practices, leveraging advanced AI technology and first-party data to enhance online presence and patient engagement.
+              MyClinicCoPilot is a comprehensive digital marketing service provider for health practices, leveraging advanced AI technology and first-party data to enhance online presence and patient engagement.
               </p>
             </div>
           </li>
 
           <li>
-            <div data-bs-toggle="collapse" href="#faq2" className="collapsed question">What services does MyCliniCoPilot offer? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq2" className="collapsed question">What services does MyClinicCoPilot offer? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
             <div id="faq2" className="collapse" data-bs-parent=".faq-list">
               <p>
               We offer AI-powered SEO, social media marketing, targeted email campaigns, data-driven patient acquisition strategies, and comprehensive inbound lead management (to be launched soon).
@@ -93,7 +93,7 @@ export default function Faq() {
           </li>
 
           <li>
-            <div data-bs-toggle="collapse" href="#faq10" className="collapsed question">How can I get started with MyCliniCoPilot? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
+            <div data-bs-toggle="collapse" href="#faq10" className="collapsed question">How can I get started with MyClinicCoPilot? <i className="bi bi-chevron-down icon-show"></i><i className="bi bi-chevron-up icon-close"></i></div>
             <div id="faq10" className="collapse" data-bs-parent=".faq-list">
               <p>
               To get started with our services, simply contact us through our website or customer service. We&apos;ll work with you to understand your practice&apos;s needs and tailor our digital marketing solutions accordingly.
